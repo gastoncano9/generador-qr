@@ -1,0 +1,257 @@
+@font-face
+{
+    font-family:"smuch";
+    src: url("./Fonts/SmoochSans-VariableFont_wght.ttf");
+}
+
+@font-face
+{
+    font-family: "bangers";
+    src: url("./Fonts/Bangers-Regular.ttf");
+}
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#header
+{
+    width: 100%;
+    height: 140px;
+    padding-left: 25px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #247F4F;
+}
+
+#header .contenedor-logo
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+    overflow:hidden;
+}
+
+#header .contenedor-logo img
+{
+    width: 100%;
+}
+
+#header .contenedor-titulo
+{
+    width:38%;
+    color: white;
+    font-size: 25px;
+}
+
+#header .contenedor-titulo h1
+{
+    font-family: "smuch";
+}
+
+#header .mi-logo
+{
+    width: 20%;
+    font-family: "bangers";
+    color: white;
+    font-size: 35px;
+}
+
+#header #menu
+{
+    width: 30%;
+}
+
+#menu #lista
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#menu #lista li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-family: "smuch";
+    font-weight: bold;
+}
+
+#seccion-principal
+{
+    width:100%;
+    padding:30px;
+    padding-right: 0px;
+    height: 600px;
+    display: flex;
+}
+
+#seccion-principal .contenedor-seccion
+{
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 0px 1px black, -3px 0px 1px black;
+}
+
+#seccion-principal .contenedor-seccion section
+{
+    width: 80%;
+    margin: 0px auto;
+}
+
+#seccion-principal .contenedor-seccion section h2
+{
+    font-size: 35px;
+    font-family: "smuch";
+    background-color: #247F4F;
+    border-radius: 7px;
+    color: white;
+}
+
+#seccion-principal .contenedor-seccion section article
+{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#seccion-principal .contenedor-seccion .contenedor-imagenes
+{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+#seccion-principal .contenedor-seccion .contenedor-imagenes .tarjeta-imagen
+{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+}
+
+#seccion-principal .contenedor-seccion .contenedor-imagenes .tarjeta-imagen img
+{
+    width: 100%;
+}
+
+#barra-lateral
+{
+    width: 30%;
+    height: 45%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.estirar
+{
+    height: 100% !important;
+}
+
+.contenedor-qr
+{
+    margin-top: 15px;
+    display:none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-img_qr
+{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.contenedor-img_qr img
+{
+    width: 100%;
+}
+
+.contenedor-qr a
+{
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: "smuch";
+    background-color: #247F4F;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenedor-qr h4
+{
+    font-size: 30px;
+    font-family: "smuch";
+    background-color: #247F4F;
+    border-radius: 7px;
+    color: white;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+#barra-lateral .contenedor-form
+{
+    width: 80%;
+    padding: 22px;
+    box-shadow: 3px 0px 1px black, -3px 0px 1px black;
+}
+
+#barra-lateral .contenedor-form h3
+{   
+    font-size: 30px;
+    font-family: "smuch";
+    background-color: #247F4F;
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+}
+
+#barra-lateral .contenedor-form form
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#barra-lateral .contenedor-form form input
+{
+    margin: 10px;
+    padding: 5px;
+}
+
+#barra-lateral .contenedor-form form input[type = "submit"]
+{
+    padding: 10px;
+    background-color: #247F4F;
+    color: white;
+    font-family: "bangers";
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 50%;
+}
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    background:linear-gradient(75deg,white,#247F4F,white);
+}
